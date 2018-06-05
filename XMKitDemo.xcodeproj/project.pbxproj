@@ -43,6 +43,7 @@
 		6D096F9D20C67E200097D7D4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6D4D1C7320C6887500DFDBEC /* XMKitTest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XMKitTest.h; sourceTree = "<group>"; };
 		6D4D1C7420C6887500DFDBEC /* XMKitTest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XMKitTest.m; sourceTree = "<group>"; };
+		6D4D1C7620C694D400DFDBEC /* XMLibrary.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XMLibrary.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +113,7 @@
 			children = (
 				6D4D1C7320C6887500DFDBEC /* XMKitTest.h */,
 				6D4D1C7420C6887500DFDBEC /* XMKitTest.m */,
+				6D4D1C7620C694D400DFDBEC /* XMLibrary.h */,
 			);
 			path = XMLibrary;
 			sourceTree = "<group>";
