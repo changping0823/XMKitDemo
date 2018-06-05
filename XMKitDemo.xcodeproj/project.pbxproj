@@ -84,7 +84,7 @@
 		6D096F8120C67E1F0097D7D4 /* XMKitDemo */ = {
 			isa = PBXGroup;
 			children = (
-				6D4D1C7220C6886500DFDBEC /* XMKit */,
+				6D4D1C7220C6886500DFDBEC /* XMLibrary */,
 				6D096F8220C67E1F0097D7D4 /* AppDelegate.h */,
 				6D096F8320C67E1F0097D7D4 /* AppDelegate.m */,
 				6D096F8520C67E1F0097D7D4 /* ViewController.h */,
@@ -107,13 +107,13 @@
 			path = XMKitDemoUITests;
 			sourceTree = "<group>";
 		};
-		6D4D1C7220C6886500DFDBEC /* XMKit */ = {
+		6D4D1C7220C6886500DFDBEC /* XMLibrary */ = {
 			isa = PBXGroup;
 			children = (
 				6D4D1C7320C6887500DFDBEC /* XMKitTest.h */,
 				6D4D1C7420C6887500DFDBEC /* XMKitTest.m */,
 			);
-			path = XMKit;
+			path = XMLibrary;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
