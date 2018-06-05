@@ -14,6 +14,7 @@
 		6D096F8F20C67E200097D7D4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6D096F8D20C67E200097D7D4 /* LaunchScreen.storyboard */; };
 		6D096F9220C67E200097D7D4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D096F9120C67E200097D7D4 /* main.m */; };
 		6D096F9C20C67E200097D7D4 /* XMKitDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D096F9B20C67E200097D7D4 /* XMKitDemoUITests.m */; };
+		6D4D1C7520C6887500DFDBEC /* XMKitTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D4D1C7420C6887500DFDBEC /* XMKitTest.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		6D096F9720C67E200097D7D4 /* XMKitDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XMKitDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6D096F9B20C67E200097D7D4 /* XMKitDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XMKitDemoUITests.m; sourceTree = "<group>"; };
 		6D096F9D20C67E200097D7D4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6D4D1C7320C6887500DFDBEC /* XMKitTest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XMKitTest.h; sourceTree = "<group>"; };
+		6D4D1C7420C6887500DFDBEC /* XMKitTest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XMKitTest.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +84,7 @@
 		6D096F8120C67E1F0097D7D4 /* XMKitDemo */ = {
 			isa = PBXGroup;
 			children = (
+				6D4D1C7220C6886500DFDBEC /* XMKit */,
 				6D096F8220C67E1F0097D7D4 /* AppDelegate.h */,
 				6D096F8320C67E1F0097D7D4 /* AppDelegate.m */,
 				6D096F8520C67E1F0097D7D4 /* ViewController.h */,
@@ -101,6 +105,15 @@
 				6D096F9D20C67E200097D7D4 /* Info.plist */,
 			);
 			path = XMKitDemoUITests;
+			sourceTree = "<group>";
+		};
+		6D4D1C7220C6886500DFDBEC /* XMKit */ = {
+			isa = PBXGroup;
+			children = (
+				6D4D1C7320C6887500DFDBEC /* XMKitTest.h */,
+				6D4D1C7420C6887500DFDBEC /* XMKitTest.m */,
+			);
+			path = XMKit;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -148,7 +161,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0940;
-				ORGANIZATIONNAME = "任长平";
+				ORGANIZATIONNAME = nokia;
 				TargetAttributes = {
 					6D096F7E20C67E1F0097D7D4 = {
 						CreatedOnToolsVersion = 9.4;
@@ -206,6 +219,7 @@
 				6D096F8720C67E1F0097D7D4 /* ViewController.m in Sources */,
 				6D096F9220C67E200097D7D4 /* main.m in Sources */,
 				6D096F8420C67E1F0097D7D4 /* AppDelegate.m in Sources */,
+				6D4D1C7520C6887500DFDBEC /* XMKitTest.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
