@@ -2,8 +2,8 @@
 //  AppDelegate.m
 //  XMKitDemo
 //
-//  Created by 任长平 on 2018/6/5.
-//  Copyright © 2018年 任长平. All rights reserved.
+//  Created by nokia on 2018/6/5.
+//  Copyright © 2018年 nokia. All rights reserved.
 //
 
 #import "AppDelegate.h"
